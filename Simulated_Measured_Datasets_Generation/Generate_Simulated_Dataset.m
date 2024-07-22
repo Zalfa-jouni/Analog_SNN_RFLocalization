@@ -280,7 +280,7 @@ function [Prf, fspike] = loadCadenceData()
     % Prf (Power in dBm) and fspike (Frequency spikes).
 
     % Read the data from the CSV file into a table
-    data_frequency_Power = readtable('data_frequency_power.csv');
+    data_frequency_Power = readtable('postlayout_data_frequency_power.csv');
 
     % Extract the columns and then transpose them
     Prf = table2array(data_frequency_Power(:, 'Prf')).';    
