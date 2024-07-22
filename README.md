@@ -42,7 +42,7 @@ In this setup, the mobile source, marked by red crosses, can occupy any position
 
 To use the code in this repository, you need the following requirements:
 
-- MATLAB R2022a for simulated dataset generation.
+- MATLAB R2022a for simulated dataset generation.To use the `awgn` function, you need to install the Communications Toolbox.
 - Python 3.10 with the following packages:
   ```python
   import tensorflow as tf
