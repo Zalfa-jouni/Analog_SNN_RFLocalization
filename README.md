@@ -8,7 +8,7 @@ This repository contains code and resources for RF source localization dataset c
 
 - **RF Environment Setup**:
   - The RF environment setup considered for dataset generation is based on the RF setup shown in the figure below.
-  ![RF Setup](https://github.com/Zalfa-jouni/Analog_SNN_RFLocalization/blob/main/Images/RF_config.png)
+<img src="https://github.com/Zalfa-jouni/Analog_SNN_RFLocalization/blob/main/Images/RF_config.png" alt="RF Setup" width="500"/>
 In this setup, the mobile source, marked by red crosses, can occupy any position along three concentric circles representing distances of 0.1, 0.23, and 0.5 meters from the origin. These circles allow for a full 360-degree positional coverage of the source, with the angle relative to the origin (θs) varying from 0 to 360 degrees in 10-degree increments. There are four receivers, each located at key points marked by blue squares to ensure full coverage and enhance localization accuracy within the 2D layout. The receivers are positioned at the midpoint of each boundary of the plane: Receiver 1 to the right, Receiver 2 at the top, Receiver 3 on the left, and Receiver 4 at the bottom, all maintaining an equal distance of 1 meter (dr) from the origin.
     
 - **Simulated Dataset Generation Code**:
