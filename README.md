@@ -72,13 +72,14 @@ The MATLAB code can be easily adjusted to use in Python as well.
 To generate the simulated dataset, run the following command in MATLAB:
 ```
 run('Generate_Simulated_Dataset.m')
+```
 
 ### Analog SNN Learning and Synthesis
 
 To synthesize the analog SNN using the provided datasets and the analog neurons properties, run the following command in Python:
 ```
 python Analog_SNN_Learning.py
-
+```
 
 ## License
 
