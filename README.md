@@ -1,7 +1,5 @@
 # Analog_SNN_RFLocalization
 
-# RF Source Localization and Neuromorphic System
-
 This repository contains code and resources for RF source localization dataset creation and analog-based spiking neural network synthesis with deep learning. These resources are associated with the paper "An End-to-End Analog Neuromorphic System for Low-Power RF Localization in IoT."
 
 ## Repository Structure
