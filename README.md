@@ -35,7 +35,7 @@ In this setup, the mobile source, marked by red crosses, can occupy any position
 ### 2. Analog_SNN_Learning_Synthesis
 
 - **Analog SNN Learning and Synthesis Code**:
-  - This section includes the code for synthesizing the analog SNN for deep learning using the datasets.
+  - This section includes the code for synthesizing the analog SNN for deep learning using the provided datasets and the analog neurons post-layout properties.
   - A pseudocode guide is also provided to clarify the steps of the code.
 
 ## Installation
@@ -70,12 +70,12 @@ The MATLAB code can be easily adjusted to use in Python as well.
 ### Simulated Dataset Generation
 
 To generate the simulated dataset, run the following command in MATLAB:
-run('Simulated_Dataset_Generation.m')
+run('Generate_Simulated_Dataset.m')
 
 ### Analog SNN Learning and Synthesis
 
 To synthesize the analog SNN using the provided datasets and the analog neurons properties, run the following command in Python:
-python test.py
+python Analog_SNN_Learning.py
 
 
 ## License
