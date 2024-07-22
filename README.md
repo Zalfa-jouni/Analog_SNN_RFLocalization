@@ -28,3 +28,5 @@ In this setup, the mobile source, marked by red crosses, can occupy any position
     - SNR = 0 dB
     - SNR = 10 dB
     - SNR = 20 dB
+  The measurement setup taken in consideration to develop the measured dataset is shown in the figure below.
+<img src="https://github.com/Zalfa-jouni/Analog_SNN_RFLocalization/blob/main/Images/Experimental_Setup.png" alt="RF Setup" width="500"/>
