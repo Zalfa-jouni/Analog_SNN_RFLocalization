@@ -30,3 +30,14 @@ In this setup, the mobile source, marked by red crosses, can occupy any position
     - SNR = 20 dB
   The measurement setup taken in consideration to develop the measured dataset is shown in the figure below.
 <img src="https://github.com/Zalfa-jouni/Analog_SNN_RFLocalization/blob/main/Images/Experimental_Setup.png" alt="RF Setup" width="500"/>
+
+
+### 2. Analog_SNN_Learning_Synthesis
+
+- **Analog SNN Learning and Synthesis Code**:
+  - This section includes the code for synthesizing the analog SNN for deep learning using the datasets.
+  - A pseudocode guide is also provided to clarify the steps of the code.
+
+## License
+
+This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details.
