@@ -38,6 +38,50 @@ In this setup, the mobile source, marked by red crosses, can occupy any position
   - This section includes the code for synthesizing the analog SNN for deep learning using the datasets.
   - A pseudocode guide is also provided to clarify the steps of the code.
 
+## Installation
+
+To use the code in this repository, you need the following requirements:
+
+- MATLAB R2022a for simulated dataset generation.
+- Python 3.10 with the following packages:
+  ```python
+  import tensorflow as tf
+  import numpy as np
+  import random
+  import os
+  import pandas as pd
+  from scipy.interpolate import interp1d
+  import scipy.io
+  from sklearn.preprocessing import StandardScaler, MinMaxScaler
+  from sklearn.model_selection import train_test_split
+  import keras
+  from keras.models import Model
+  from keras.layers import Dense, Input, Dropout, Concatenate
+  from keras.optimizers import Adam, SGD
+  import matplotlib
+  import matplotlib.pyplot as plt
+
+## Note
+
+The MATLAB code can be easily adjusted to use in Python as well.
+
+## Usage
+
+### Simulated Dataset Generation
+
+To generate the simulated dataset, run the following command in MATLAB:
+run('Simulated_Dataset_Generation.m')
+
+### Analog SNN Learning and Synthesis
+
+To synthesize the analog SNN using the provided datasets and the analog neurons properties, run the following command in Python:
+python test.py
+
+
 ## License
 
 This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+Feel free to reach out if you have any questions or need further assistance. You can contact us at zalfa@ieee.org.
